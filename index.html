@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Rocket Science Calculator for Toddlers</h1>
+    <label for="num1">The anticipation is killing us, please enter those values :</label>
+    <input type="text" id="num1"><br><br>
+    <label id="result">Result is:</label>
+    <br>
+    <table class="calculator">
+      <tr>
+        <td><input type="button" value="C" onclick="clearInputs()"></td>
+        <td><input type="button" value="√x" onclick="calculateSquareRoot()"></td>
+        <td><input type="button" value="x²" onclick="calculateSquare()"></td>
+        <td><a href="https://github.com/Siddharth1047" target="_blank"><input type="button" value="G"></a></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="1" onclick="addToInput('1')"></td>
+        <td><input type="button" value="2" onclick="addToInput('2')"></td>
+        <td><input type="button" value="3" onclick="addToInput('3')"></td>
+        <td><input type="button" value="/" onclick="addToInput('/')" style="font-size: 40px;"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="4" onclick="addToInput('4')"></td>
+        <td><input type="button" value="5" onclick="addToInput('5')"></td>
+        <td><input type="button" value="6" onclick="addToInput('6')"></td>
+        <td><input type="button" value="*" onclick="addToInput('*')" style="font-size: 40px;"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="7" onclick="addToInput('7')"></td>
+        <td><input type="button" value="8" onclick="addToInput('8')"></td>
+        <td><input type="button" value="9" onclick="addToInput('9')"></td>
+        <td><input type="button" value="+" onclick="addToInput('+')" style="font-size: 40px;"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="." onclick="addToInput('.')" style="font-size: 40px;"></td>
+        <td><input type="button" value="0" onclick="addToInput('0')"></td>
+        <td><input type="button" value="=" onclick="calculateResult()"></td>
+        <td><input type="button" value="-" onclick="addToInput('-')" style="font-size: 40px;"></td>
+      </tr>
+    </table>
+    <div class="mylinks">
+    <a href="https://twitter.com/iamsidOK" target="_blank">Twitter</a><br><br>
+    <a href="https://medium.com/@siddharthgov01" target="_blank">Medium Blog</a><br><br>
+    <a href="https://www.linkedin.com/in/siddharth-govardhane-223b4b199/" target="_blank">LinkedIn</a>
+    </div>
+    <script src="jscript.js"></script>
+  </body>
+</html>
+
